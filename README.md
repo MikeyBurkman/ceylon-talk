@@ -17,6 +17,7 @@ A quick crash course in Ceylon
 * Effective tooling -- IDE plugins developed side-by-side with the language, not as an afterthought
 * Straight-forward interop with existing libraries (either Java or JavaScript)
 * Modularity -- Not everything needs to be public
+* Have Own SDK -- The language does not rely on, E.G. the collection library of the current platform
 
 ## Important Links
 * [Ceylon Main Site](https://ceylon-lang.org/)
