@@ -3,7 +3,7 @@ A quick crash course in Ceylon
 
 ## What is Ceylon?
 * Ceylon is a new(ish) programming language (2011)
-* Developed by Red Hat and other companies, designed primarily by Gavin King (of Hibernate and CDI fame in the Java world)
+* Sponsored by Red Hat, led by Gavin King (of Hibernate and CDI fame in the Java world)
 * Completely open souce (of course), all hosted on Github
 * Aimed particularly at larger enterprise-scale projects with multiple team members
 * Designed by specification first, with the implementation coming second
