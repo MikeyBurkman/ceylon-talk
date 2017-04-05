@@ -17,11 +17,11 @@ A quick crash course in Ceylon
 * Modularity -- Not everything needs to be public
 
 ## Important Links
-[Ceylon Main Site](https://ceylon-lang.org/)
-[Ceylon Tour](https://ceylon-lang.org/documentation/1.3/tour/) -- Like this talk, only better (and a lot longer)
-[Ceylon FAQ](https://ceylon-lang.org/documentation/1.3/faq/) -- Contains answers to questions everyone has, such as "Why are semicolons still required?"
-[Ceylon Download](https://ceylon-lang.org/download/)
-[Ceylon Source](http://ceylon.github.io/)
+* [Ceylon Main Site](https://ceylon-lang.org/)
+* [Ceylon Tour](https://ceylon-lang.org/documentation/1.3/tour/) -- Like this talk, only better (and a lot longer)
+* [Ceylon FAQ](https://ceylon-lang.org/documentation/1.3/faq/) -- Contains answers to questions everyone has, such as "Why are semicolons still required?"
+* [Ceylon Download](https://ceylon-lang.org/download/)
+* [Ceylon Source](http://ceylon.github.io/)
 
 ## What's not covered in this?
 Lots of things. The language, though relatively new, contains a vast number of features, which we just don't have time to go over. All of these are described quite well in the Ceylon Tour above. 
