@@ -12,6 +12,7 @@ A quick crash course in Ceylon
 ### Design Goals
 * Type safety -- It *will* reduce the number of runtime exceptions you will see
 * Consistency in the language -- Fewer obscure rules to remember
+* Immutability by default (related to type safety)
 * Effective tooling -- IDE plugins developed side-by-side with the language, not as an afterthought
 * Straight-forward interop with existing libraries (either Java or JavaScript)
 * Modularity -- Not everything needs to be public
