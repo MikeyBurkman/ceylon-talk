@@ -118,6 +118,21 @@ shared void errorConditions() {
     parse("abc");
 }
 
+"Like Super Friends. But not really"
+shared void theSuperTypes() {
+    // The "Anything" type is the supertype of ALL other types, including Null
+    Anything a1 = "abc";
+    Anything a2 = null;
+
+    // There are two subtypes of Anything: Object and Null:
+    Object o1 = "abc";
+    Anything a3 = o1;
+    // Object o2 = null; // Compile error! null is not an Object
+
+    Null n1 = null;
+    Anything a4 = n1;
+}
+
 "They aren't that bad, I promise"
 shared void genericFunctions() {
     // Generics in Ceylon are REIFIED!

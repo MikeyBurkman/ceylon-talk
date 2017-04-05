@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca8faac7-de76-44c1-bd9a-398ba82ccdf1" name="Default" comment="" />
+    <list default="true" id="ca8faac7-de76-44c1-bd9a-398ba82ccdf1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/talk/part02AdvancedBasics/main.ceylon" afterPath="$PROJECT_DIR$/source/talk/part02AdvancedBasics/main.ceylon" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/talk/part03Classes/main.ceylon" afterPath="$PROJECT_DIR$/source/talk/part03Classes/main.ceylon" />
+    </list>
     <ignored path="$PROJECT_DIR$/modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +20,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.ceylon" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/talk/part02AdvancedBasics/main.ceylon">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="132" column="21" lean-forward="false" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.ceylon" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/talk/part03Classes/main.ceylon">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="122" column="88" lean-forward="false" selection-start-line="122" selection-start-column="88" selection-end-line="122" selection-end-column="88" />
+            <state relative-caret-position="134">
+              <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,6 +56,9 @@
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -147,7 +164,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="part04JavaIterop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="talk" />
+              <option name="myItemType" value="org.intellij.plugins.ceylon.ide.projectView.ModuleTreeStructureProvider$ModuleTreeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="talk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="part03Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="talk" />
+              <option name="myItemType" value="org.intellij.plugins.ceylon.ide.projectView.ModuleTreeStructureProvider$ModuleTreeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="talk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part02AdvancedBasics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -180,15 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ceylon.talk.part03Classes.methodOverloading">
-    <configuration default="false" name="talk.part03Classes.basicDataClasses" type="CeylonRunConfiguration" factoryName="Ceylon" temporary="true" ceylon-module="talk" top-level="talk.part03Classes.basicDataClasses" backend="jvm" arguments="" vm-options="">
-      <module name="testproject" />
-      <method />
-    </configuration>
-    <configuration default="false" name="talk.part04JavaIterop.run" type="CeylonRunConfiguration" factoryName="Ceylon" temporary="true" ceylon-module="talk" top-level="talk.part04JavaIterop.run" backend="jvm" arguments="" vm-options="">
-      <module name="testproject" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ceylon.talk.part03Classes.classSuperTypes">
     <configuration default="false" name="talk.part01Basics.mapFilterYay" type="CeylonRunConfiguration" factoryName="Ceylon" temporary="true" ceylon-module="talk" top-level="talk.part01Basics.mapFilterYay" backend="jvm" arguments="" vm-options="">
       <module name="testproject" />
       <method />
@@ -198,6 +259,14 @@
       <method />
     </configuration>
     <configuration default="false" name="talk.part03Classes.methodOverloading" type="CeylonRunConfiguration" factoryName="Ceylon" temporary="true" ceylon-module="talk" top-level="talk.part03Classes.methodOverloading" backend="jvm" arguments="" vm-options="">
+      <module name="testproject" />
+      <method />
+    </configuration>
+    <configuration default="false" name="talk.part02AdvancedBasics.theSuperTypes" type="CeylonRunConfiguration" factoryName="Ceylon" temporary="true" ceylon-module="talk" top-level="talk.part02AdvancedBasics.theSuperTypes" backend="jvm" arguments="" vm-options="">
+      <module name="testproject" />
+      <method />
+    </configuration>
+    <configuration default="false" name="talk.part03Classes.classSuperTypes" type="CeylonRunConfiguration" factoryName="Ceylon" temporary="true" ceylon-module="talk" top-level="talk.part03Classes.classSuperTypes" backend="jvm" arguments="" vm-options="">
       <module name="testproject" />
       <method />
     </configuration>
@@ -348,19 +417,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ceylon.talk.part03Classes.basicDataClasses" />
-      <item index="1" class="java.lang.String" itemvalue="Ceylon.talk.part04JavaIterop.run" />
-      <item index="2" class="java.lang.String" itemvalue="Ceylon.talk.part01Basics.mapFilterYay" />
-      <item index="3" class="java.lang.String" itemvalue="Ceylon.talk.part03Classes.refinement" />
-      <item index="4" class="java.lang.String" itemvalue="Ceylon.talk.part03Classes.methodOverloading" />
+      <item index="0" class="java.lang.String" itemvalue="Ceylon.talk.part01Basics.mapFilterYay" />
+      <item index="1" class="java.lang.String" itemvalue="Ceylon.talk.part03Classes.refinement" />
+      <item index="2" class="java.lang.String" itemvalue="Ceylon.talk.part03Classes.methodOverloading" />
+      <item index="3" class="java.lang.String" itemvalue="Ceylon.talk.part02AdvancedBasics.theSuperTypes" />
+      <item index="4" class="java.lang.String" itemvalue="Ceylon.talk.part03Classes.classSuperTypes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ceylon.talk.part03Classes.methodOverloading" />
-        <item index="1" class="java.lang.String" itemvalue="Ceylon.talk.part03Classes.refinement" />
-        <item index="2" class="java.lang.String" itemvalue="Ceylon.talk.part01Basics.mapFilterYay" />
-        <item index="3" class="java.lang.String" itemvalue="Ceylon.talk.part04JavaIterop.run" />
-        <item index="4" class="java.lang.String" itemvalue="Ceylon.talk.part03Classes.basicDataClasses" />
+        <item index="0" class="java.lang.String" itemvalue="Ceylon.talk.part03Classes.classSuperTypes" />
+        <item index="1" class="java.lang.String" itemvalue="Ceylon.talk.part02AdvancedBasics.theSuperTypes" />
+        <item index="2" class="java.lang.String" itemvalue="Ceylon.talk.part03Classes.methodOverloading" />
+        <item index="3" class="java.lang.String" itemvalue="Ceylon.talk.part03Classes.refinement" />
+        <item index="4" class="java.lang.String" itemvalue="Ceylon.talk.part01Basics.mapFilterYay" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
@@ -375,16 +444,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3393086" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3393086" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25035766" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ceylon Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -478,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testproject.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_PLUGINS_DIR$/CeylonIDEA/classes/embeddedDist/repo/ceylon/language/1.3.2/ceylon.language-1.3.2.src!/ceylon/language/Object.ceylon">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -556,36 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/talk/part01Basics/main.ceylon">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="170" column="33" lean-forward="true" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/talk/module.ceylon">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/talk/part04JavaIterop/main.ceylon">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#1#34#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/talk/part02AdvancedBasics/main.ceylon">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -598,10 +634,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.ceylon/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testproject.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/talk/part01Basics/main.ceylon">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1987">
+          <caret line="170" column="33" lean-forward="true" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/talk/part04JavaIterop/main.ceylon">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/talk/part02AdvancedBasics/main.ceylon">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="132" column="21" lean-forward="false" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/talk/part03Classes/main.ceylon">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="122" column="88" lean-forward="false" selection-start-line="122" selection-start-column="88" selection-end-line="122" selection-end-column="88" />
+        <state relative-caret-position="134">
+          <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
           <folding />
         </state>
       </provider>

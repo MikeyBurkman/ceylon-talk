@@ -160,6 +160,27 @@ shared void interfaces() {
 
 }
 
+"Classy basic classes"
+shared void classSuperTypes() {
+    // Classes by default satisfy Basic, not Object.
+    // Basic is a subtype of Object, and implements default Equals() and hash
+    class Foo(String x) {}
+    Basic b1 = Foo("abc");
+    print("b1.hash = ``b1.hash``");
+
+    // We can extend Object() directly if we wish, but then we
+    //  MUST implement Equals() and hash in order to compile!"
+    class ObjectSubtype(String x) extends Object() {
+        shared actual Boolean equals(Object that) {
+            return that == this;
+        }
+
+        shared actual Integer hash => x.hash;
+    }
+    Object o1 = ObjectSubtype("abc");
+    print("o1.hash = ``o1.hash``");
+}
+
 "Much like Java, but different"
 shared void genericsInClasses() {
 
