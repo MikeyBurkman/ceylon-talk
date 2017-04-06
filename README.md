@@ -26,6 +26,7 @@ A quick crash course in Ceylon
 * [Ceylon Language Design FAQ](https://ceylon-lang.org/documentation/1.3/faq/language-design/) -- Contains answers to questions regarding the design choices in the language, such as why semicolons are required
 * [Ceylon Download](https://ceylon-lang.org/download/)
 * [Ceylon Source](http://ceylon.github.io/)
+* [Ceylon Language Specification](https://ceylon-lang.org/documentation/1.3/spec/html/)
 
 ## What's not covered in this?
 *Lots of things.* The language, though relatively new, contains a vast number of features, which we just don't have time to go over. All of these are described quite well in the Ceylon Tour above. 
