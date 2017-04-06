@@ -2,7 +2,7 @@
 A quick crash course in Ceylon
 
 ## What is Ceylon?
-* Ceylon is a new(ish) programming language (2011)
+* ~~Cylon~~Ceylon is a new(ish) programming language (2011)
 * Sponsored by Red Hat, led by Gavin King (of Hibernate and CDI fame in the Java world)
 * Completely open souce (of course), all hosted on Github
 * Aimed particularly at larger enterprise-scale projects with multiple team members
@@ -28,7 +28,7 @@ A quick crash course in Ceylon
 * [Ceylon Source](http://ceylon.github.io/)
 
 ## What's not covered in this?
-Lots of things. The language, though relatively new, contains a vast number of features, which we just don't have time to go over. All of these are described quite well in the Ceylon Tour above. 
+*Lots of things.* The language, though relatively new, contains a vast number of features, which we just don't have time to go over. All of these are described quite well in the Ceylon Tour above. 
 
 Some things I'll be glancing over or skipping entirely:
 * Named constructors, value constructors, advanced class initialization
