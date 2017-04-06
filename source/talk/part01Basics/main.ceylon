@@ -48,6 +48,12 @@ shared void iterablesExample() {
     for (String s in iterable1) {
         print("Iterable 1 value: ``s``");
     }
+
+    // Ranges are pretty easy
+    {Integer*} range1 = 1..5;
+    for (i in range1) {
+        print("i = ``i``");
+    }
 }
 
 "Shows how to make mutable variables instead of immutable ones"
@@ -68,11 +74,6 @@ shared void mutableVariablesExample() {
 
     [Character+] sequence1 = ['B', 'C', 'D'];
     // sequence1[0] = 'A'; // Compile error!
-
-    // If you really need mutable sequences, use "Array"
-    Array<String> array1 = Array { "F", "O", "O", "L" };
-    array1[0] = "P";
-    print("Array: ``array1``");
 }
 
 // Shows basic type inference

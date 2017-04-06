@@ -1,5 +1,5 @@
 
-// Simplest form of classes, made to hold immutable data
+"Simplest form of classes, made to hold immutable data"
 shared void basicDataClasses() {
 
     // Just like functions, classes can be declared virtually anywhere
@@ -214,6 +214,4 @@ shared void varianceInGenericClasses() {
 
     // Note that it doesn't go the other way
     // Box<Integer> b3 = b2; // Compile error! Cannot cast Box<Object> to Box<Integer>
-
-
 }

@@ -31,12 +31,12 @@ A quick crash course in Ceylon
 Lots of things. The language, though relatively new, contains a vast number of features, which we just don't have time to go over. All of these are described quite well in the Ceylon Tour above. 
 
 Some things I'll be glancing over or skipping entirely:
-* Named constructors and advanced class initialization
-* Anonymous classes
+* Named constructors, value constructors, advanced class initialization
+* Anonymous classes, enumerated types, enumerated instances
 * Comprehensions (as made famous by Python)
 * Type aliases
 * Intersection types -- These are a bit less common in everyday use, but are important for understanding how the compiler reasons about some things
 * Modularity in packages and modules
-* JS Interop
+* JS Interop (and more advanced Java interop)
 * Annotations and metamodel/reflection
 * Threading/parallelism -- Not part of the language, and depends on the VM that Ceylon is running on

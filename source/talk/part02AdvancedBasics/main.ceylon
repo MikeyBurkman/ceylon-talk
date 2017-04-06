@@ -1,4 +1,12 @@
 
+"Hey look I can call that function defined in that other file..."
+shared void importsExample() {
+    // You can import at just about any scope, provided it's at the top
+    import talk.part01Basics { basicTypesExample }
+
+    basicTypesExample();
+}
+
 "Or, How to avoid the Billion-Dollar Mistake"
 shared void nullability() {
 
@@ -101,7 +109,7 @@ shared void unionTypesInCollections() {
 "Or, how to do checked exceptions better"
 shared void errorConditions() {
     // Union types all of a sudden give us a more friendly (and efficient) way of
-    //  indicating certain expected error conditions
+    //  indicating certain more-expected error conditions
     // For instance, parsing an integer is very likely to lead to failure
 
     void parse(String s) {
@@ -116,6 +124,20 @@ shared void errorConditions() {
 
     parse("14");
     parse("abc");
+
+    // However, there are times when runtime exceptions are appropriate, and they are supported.
+    // In general, exceptions are thrown when you would expect most people to simply bubble up the exception anyways.
+    // Use your best judgement. And read this https://ceylon-lang.org/blog/2015/12/14/failure/
+    void thisWillFail() {
+        throw Exception("Yep here's an exception for you");
+    }
+
+    try {
+        thisWillFail();
+    } catch (Exception e) {
+        print("Caught the exception");
+        e.printStackTrace();
+    }
 }
 
 "Like Super Friends. But not really"
