@@ -18,6 +18,8 @@ shared void basicTypesExample() {
     // Adding numbers is actually syntactic sugar for calling the "plus()" method!
     // (This is actual polymorphism)
     print("``int1`` + 5 = ``int1.plus(5)``");
+
+    #! By the way, this is legal as a comment too! But you won't see it much except in executable scripts
 }
 
 "Example of tuples"
@@ -37,7 +39,6 @@ shared void iterablesExample() {
     // Use {Type+} to indicate a non-empty iterable
     {String+} iterable2 = { "d", "e", "f" };
     //{String+} empty = { }; // Compile error!
-
 
     // There are also sequences, which are similar to arrays.
     // These are subclasses of iterable

@@ -35,3 +35,28 @@ shared void fibImpl() {
     }
     
 }
+
+"Given an iterable of Integers, return an iterable of characters
+ of the last digit of each Integer. Use a map function."
+shared void rightMostDigitsImpl() {
+    {Character+} rightMostDigits({Integer+} nums) {
+        function rightDigit(Integer i) => i.string.last else '0';
+        return nums.map(rightDigit);
+    }
+
+    print(rightMostDigits({1, 12, 443, 6854}));
+}
+
+"A triangle number is somehow defined by the sum of the numbers from 1
+ until that number. so triangle(3) = 1+2+3 = 6.
+ * Print out the triangle numbers for integers 1 through 10.
+ * And then maybe explain to me why they're called that because I don't feel like looking it up.
+ * Extra credit if you use a fold or reduce function."
+shared void triangleNumbersImpl() {
+    function triangle(Integer i) =>
+            (1..i).fold(0)((sum, n) => sum + n);
+
+    for (n in 1..10) {
+        print("Triangle(``n``) = ``triangle(n)``");
+    }
+}
