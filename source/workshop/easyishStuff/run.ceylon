@@ -5,17 +5,7 @@
  * If the number is a multiple of both 3 and 5, then print 'fizzbuzz'
  * If the number is none of these, just print the number"
 shared void fizzBuzzImpl() {
-    for (i in 1..100) {
-        if (i % 15 == 0) {
-            print("fizzbuzz");
-        } else if (i % 3 == 0) {
-            print("fizz");
-        } else if (i % 5 == 0) {
-            print("buzz");
-        } else {
-            print(i);
-        }
-    }
+
 }
 
 "Write a fibonaci function
@@ -23,11 +13,7 @@ shared void fizzBuzzImpl() {
  * Print out the results of fib(n) for 1 through 10"
 shared void fibImpl() {
     Integer fib(Integer x) {
-        if (x <= 2) {
-            return 1;
-        } else {
-            return fib(x - 1) + fib(x - 2);
-        }
+        return x;
     }
 
     for (i in 1..10) {
@@ -40,8 +26,7 @@ shared void fibImpl() {
  of the last digit of each Integer. Use a map function."
 shared void rightMostDigitsImpl() {
     {Character+} rightMostDigits({Integer+} nums) {
-        function rightDigit(Integer i) => i.string.last else '0';
-        return nums.map(rightDigit);
+        return {'A'};
     }
 
     print(rightMostDigits({1, 12, 443, 6854}));
@@ -53,8 +38,9 @@ shared void rightMostDigitsImpl() {
  * And then maybe explain to me why they're called that because I don't feel like looking it up.
  * Extra credit if you use a fold or reduce function."
 shared void triangleNumbersImpl() {
-    function triangle(Integer i) =>
-            (1..i).fold(0)((sum, n) => sum + n);
+    function triangle(Integer i) {
+        return i;
+    }
 
     for (n in 1..10) {
         print("Triangle(``n``) = ``triangle(n)``");

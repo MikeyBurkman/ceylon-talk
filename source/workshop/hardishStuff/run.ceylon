@@ -17,31 +17,10 @@
 import ceylon.http.client { Request }
 import ceylon.uri { parseUri = parse, Query, Parameter }
 import ceylon.json { parseJson = parse, JsonObject }
-import ceylon.collection { ArrayList }
 
 String omdbUrl = "http://www.omdbapi.com/";
 
-shared class Movie(shared String title,
-        shared String year,
-        shared String rating,
-        shared String releaseDate,
-        shared String runtime,
-        shared String[] genres,
-        shared String director,
-        shared String[] writers,
-        shared String[] actors
-        ) {
-
-    string => "Title: ``title``
-               Year: ``year``
-               Director: ``director``
-               Rating: ``rating``
-               Released On: ``releaseDate``
-               Runtime: ``runtime``
-               Genres: ``genres``
-               Written By: ``writers``
-               Main Cast: ``actors``";
-}
+shared class Movie() {}
 
 shared void run() {
 
@@ -56,51 +35,6 @@ shared void run() {
 }
 
 shared Movie|Null search(String title, String? year = null) {
-
-    value parameters = ArrayList{ Parameter("t", title) };
-
-    if (exists year) {
-        parameters.add(Parameter("y", year));
-    }
-
-    value uri = parseUri(omdbUrl)
-        .withQuery(Query ( *parameters ));
-
-    value result = Request(uri).execute().contents;
-    value json = parseJson(result);
-    if (!is JsonObject json) {
-        throw Exception("Got back some unexpected result: ``result``");
-    }
-
-    if (json.getString("Response") == "False") {
-        value message = json.getStringOrNull("Error") else "<Unknown>";
-        if (message == "Movie not found!") {
-            return null;
-        } else {
-            throw Exception("Got back error response: ``message``");
-        }
-    }
-
-    return parseMovie(json);
-}
-
-Movie parseMovie(JsonObject json) {
-    return Movie {
-        title = json.getString("Title");
-        year = json.getString("Year");
-        rating = json.getString("Rated");
-        releaseDate = json.getString("Released");
-        runtime = json.getString("Runtime");
-        genres = splitString(json.getString("Genre"));
-        director = json.getString("Director");
-        writers = splitString(json.getString("Writer"));
-        actors = splitString(json.getString("Actors"));
-    };
-}
-
-String[] splitString(String s) {
-    return s.split(','.equals)
-        .map((s) => s.trimmed)
-        .sequence();
+    return null;
 }
 
