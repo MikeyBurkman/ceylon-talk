@@ -2,3 +2,7 @@ modules/
 .idea/
 .ceylon/
 *.iml
+/bin/
+/.exploded/
+.classpath
+.project
